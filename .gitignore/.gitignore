@@ -2,5 +2,6 @@
 ./js/clase.js
 # Ignora el archivo 
 ./js/script.js
+
 clase.js
 script.js

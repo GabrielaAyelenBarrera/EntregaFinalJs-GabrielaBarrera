@@ -4,7 +4,7 @@
 // const PI = 3.14
 
 
-// //Calculos en variables
+//Calculos en variables
 // let suma  = numero1 + numero2
 // let resta = numero2 - numero1
 // let producto = numero1 * PI
@@ -73,4 +73,12 @@ alert ("En 2025 vas a tener..." + edadFutura) */
 
 //for(let variable=1;variable <=3;variable=variable +1) { alert ("Usted es el jefe de los minisuper? Esta es la repeticion"+ variable + "del bucle")}
 //alert ("Gracias, vuelvas prontos")
+
+
+//Clase if
+ //if (true){console.log("Esto es verdad")}
+// let condicion = "1"
+
+// if (1 === condicion) { console.log ("esto es verdadero");}
+// else {console.log("esto es falso");}
 
