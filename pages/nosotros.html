@@ -138,9 +138,10 @@ Además, los valores pueden actuar como un diferenciador competitivo. Las empres
 </div>
 
 <div class="form-group">
-  <label for="pass">Contraseña:</label>
-  <input type="password" id="pass" name="pass" placeholder="Introduce tu contraseña" required>
+    <label for="pass">Contraseña:</label>
+    <input type="password" id="pass" name="pass" placeholder="Introduce tu contraseña" required>
 </div>
+
 
 <div class="form-group">
   <label for="consulta">Tu consulta:</label>
@@ -148,21 +149,17 @@ Además, los valores pueden actuar como un diferenciador competitivo. Las empres
 </div>
       
           <div class="form-group">
+            
+<!-- Botón para vaciar/limpiar el formulario -->
+<button id="limpiarBtn" class="btn btn-outline-secondary mb-3" type="reset">
+    <i class="fas fa-eraser"></i> Limpiar formulario
+</button>
 
+<!-- Botón para enviar el formulario con estilos de Bootstrap -->
+<button id="enviarBtn" class="btn btn-success" type="button">
+    <i class="fas fa-paper-plane"></i> Enviar formulario
+</button>
 
-<!--boton para vaciar/limpiar el formulario-->
-    <div><br> <label for="limpiar"></label>
-        <input type="reset" name="limpiar formulario">
-
-
-
-<!--boton para enviar el formulario-->
-        <label for="enviar"></label>
-
-<!--con el atributo value se le cambia el nomb al boton-->
-<div class="form-group">
-  <input type="submit" value="Enviar formulario">
-</div>
 
 </fieldset>
     </form>
@@ -191,8 +188,6 @@ Además, los valores pueden actuar como un diferenciador competitivo. Las empres
     <a href="/index.html" class="boton boton_descubrir">Inicio</a>
     </div>
 <br>
-
-    <script src="../js/dom_eventos_almacenamiento.js"></script>
     <!-- Footer-->
 
 <footer class="bg-primary text-white py-4">
@@ -210,6 +205,10 @@ Además, los valores pueden actuar como un diferenciador competitivo. Las empres
       </div>
   </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../js/dom_eventos_almacenamiento.js"></script>
+<script src="../js/main-sweet.js"></script>
 
 </body>
 </html>
