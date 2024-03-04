@@ -659,8 +659,6 @@ align-items: start;
     grid-template-columns:repeat(7, 1fr);
     gap: 3rem;
     overflow-x: scroll;
-    scrollbar-width: none;
-
 }
 /* le cambias el color cuando pasas con el mouse sobre un parrafo */
 p::selection{background-color: rgb(42, 136, 165);}
