@@ -1,0 +1,155 @@
+# Bella Aura – Makeup Page (Node + Real Time Products)
+
+Aplicación web para mostrar productos de maquillaje con:
+- Vista principal con listado de productos
+- Vista **Real Time Products** para agregar/eliminar productos
+- Endpoint API que devuelve productos en formato JSON
+
+---
+
+## 🧩 Tecnologías
+- Node.js
+- Express
+- Handlebars (vistas)
+- Socket.IO (si aplica real time)
+- Bootstrap (estilos)
+
+---
+
+## 🚀 Cómo correr el proyecto
+
+### 1) Clonar el repositorio
+```bash
+git clone <repo_url>
+cd <carpeta_del_proyecto>
+2) Instalar dependencias
+npm install
+## 🚀 Cómo correr el proyecto
+
+### 3️⃣ Levantar servidor
+```bash
+npm run dev
+El servidor corre en:
+
+arduino
+Copiar código
+http://localhost:8080/
+En la terminal deberías ver algo como:
+
+arduino
+Copiar código
+Server escuchando en puerto 8080
+🌐 Rutas disponibles
+🏠 Home
+arduino
+Copiar código
+http://localhost:8080/
+⚡ Real time products
+bash
+Copiar código
+http://localhost:8080/realTimeProducts
+📦 API products (JSON)
+bash
+Copiar código
+http://localhost:8080/api/products
+🌐 Consultar productos desde la API
+🏠 Home
+sql
+Copiar código
+GET /
+Muestra el listado de productos en formato de tarjetas
+
+Página principal del sitio
+
+⚡ Productos en tiempo real
+bash
+Copiar código
+GET /realTimeProducts
+Vista interactiva con:
+
+Listado de productos
+
+Formulario para agregar productos
+
+Formulario para eliminar productos por ID
+
+Los cambios se reflejan en tiempo real sin recargar la página
+
+📦 API de productos
+bash
+Copiar código
+GET /api/products
+Devuelve todos los productos en formato JSON
+
+Ideal para pruebas con Postman o consumo desde frontend
+
+Ejemplo de respuesta:
+
+json
+Copiar código
+[
+  {
+    "id": 1,
+    "name": "Paleta de sombras Desnuda",
+    "marca": "Urban Decay",
+    "categoria": "Ojos",
+    "precio": 54.99
+  }
+]
+✅ Funcionalidades principales
+Visualización de productos de maquillaje
+
+Agregar productos mediante formulario
+
+Eliminar productos por ID
+
+Actualización de productos en tiempo real
+
+Exposición de datos mediante API REST
+
+Diseño responsive con Bootstrap
+
+🧪 Cómo probar la aplicación
+➕ Agregar un producto
+Ingresar a:
+
+bash
+Copiar código
+/realTimeProducts
+Completar el formulario con:
+
+ID
+
+Nombre
+
+Marca
+
+Categoría
+
+Precio
+
+Presionar Agregar producto
+
+Verificar que:
+
+Aparezca en la vista
+
+Se refleje en /api/products
+
+❌ Eliminar un producto
+En la sección Eliminar Producto
+
+Ingresar el ID del producto
+
+Presionar Eliminar producto
+
+Verificar que desaparezca del listado y de la API
+
+👩‍💻 Autora
+Gabriela Ayelén Barrera
+
+📫 Contacto:
+gabrielaayelenbarrera1145@gmail.com
+
+🔗 LinkedIn:
+https://www.linkedin.com/in/gabrielabarrera-
