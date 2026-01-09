@@ -80,16 +80,15 @@ Ejemplo de respuesta:
 
 json
 
-[
-{
- "id": 1,
+
+    [
+    { "id": 1,
     "name": "Paleta de sombras Desnuda",
     "marca": "Urban Decay",
     "categoria": "Ojos",
     "precio": 54.99
-  }
-]
-
+    }
+    ]
 ---
 
 ## ✅ Funcionalidades principales
