@@ -1,4 +1,4 @@
-# Bella Aura – Makeup Page (Node + Real Time Products)
+# Bella Aura (Makeup Page)
 
 Aplicación web para mostrar productos de maquillaje con:
 - Vista principal con listado de productos
@@ -7,7 +7,7 @@ Aplicación web para mostrar productos de maquillaje con:
 
 ---
 
-## 🧩 Tecnologías
+## 🧩 Tecnologías usadas
 - Node.js
 - Express
 - Handlebars (vistas)
@@ -19,22 +19,25 @@ Aplicación web para mostrar productos de maquillaje con:
 ## 🚀 Cómo correr el proyecto
 ### 1️⃣ Clonar el repositorio
 
-git clone https://github.com/GabrielaAyelenBarrera/EntregaFinalJs-GabrielaBarrera.git
-
-cd EntregaFinalJs-GabrielaBarrera
+- git clone https://github.com/GabrielaAyelenBarrera/EntregaFinalJs-GabrielaBarrera.git
+- cd EntregaFinalJs-GabrielaBarrera
 
 ### 2️⃣ Instalar dependencias
 npm install 
+
 ### 3️⃣ Levantar servidor
 npm run dev
-El servidor corre en:
-http://localhost:8080/
+
+El servidor corre en la URL:
+`http://localhost:8080/`
 
 En la terminal deberías ver algo como:
 
 Server escuchando en puerto 8080
 
-🌐 Rutas disponibles
+---
+
+## 🌐 Rutas disponibles
 
 🏠 Home
 http://localhost:8080/
@@ -47,27 +50,27 @@ http://localhost:8080/api/products
 
 🌐 Consultar productos desde la API
 
-🏠 Home
+---
+
+## 🏠 Home
 
 GET /
+- Muestra el listado de productos en formato de tarjetas
+- Página principal del sitio
 
-Muestra el listado de productos en formato de tarjetas
+---
 
-Página principal del sitio
-
-⚡ Productos en tiempo real
+## ⚡ Productos en tiempo real
 GET /realTimeProducts
-
 Vista interactiva con:
+- Listado de productos
+- Formulario para agregar productos
+- Formulario para eliminar productos por ID
+- Los cambios se reflejan en tiempo real sin recargar la página
 
-Listado de productos
+---
 
-Formulario para agregar productos
-
-Formulario para eliminar productos por ID
-Los cambios se reflejan en tiempo real sin recargar la página
-
-📦 API de productos
+## 📦 API de productos
 GET /api/products
 
 Devuelve todos los productos en formato JSON
@@ -79,8 +82,7 @@ json
 
 [
 {
-
-    "id": 1,
+ "id": 1,
     "name": "Paleta de sombras Desnuda",
     "marca": "Urban Decay",
     "categoria": "Ojos",
@@ -88,38 +90,43 @@ json
   }
 ]
 
-✅ Funcionalidades principales
-Visualización de productos de maquillaje
-Agregar productos mediante formulario
-Eliminar productos por ID
-Actualización de productos en tiempo real
-Exposición de datos mediante API REST
-Diseño responsive con Bootstrap
+---
 
-🧪 Cómo probar la aplicación
+## ✅ Funcionalidades principales
+- Visualización de productos de maquillaje
+- Agregar productos mediante formulario
+- Eliminar productos por ID
+- Actualización de productos en tiempo real
+- Exposición de datos mediante API REST
+- Diseño responsive con Bootstrap
+
+---
+
+## 🧪 Cómo probar la aplicación
 ➕ Agregar un producto
 Ingresar a:
 /realTimeProducts
 
 Completar el formulario con:
-ID
-Nombre
-Marca
-Categoría
-Precio
-Presionar Agregar producto
+- ID
+- Nombre
+- Marca
+- Categoría
+- Precio
+- Presionar Agregar producto
 Verificar que:
-Aparezca en la vista
-Se refleje en /api/products
+- Aparezca en la vista
+- Se refleje en /api/products
 
 ❌ Eliminar un producto
-En la sección Eliminar Producto
+- En la sección Eliminar Producto
+- Ingresar el ID del producto
+- Presionar Eliminar producto
+- Verificar que desaparezca del listado y de la API
 
-Ingresar el ID del producto
-Presionar Eliminar producto
-Verificar que desaparezca del listado y de la API
+---
 
-📸 Screenshots
+## 🖼️ Vista previa
 
 🏠 Home
 
@@ -140,20 +147,12 @@ Verificar que desaparezca del listado y de la API
  <img width="553" src="https://github.com/user-attachments/assets/71b2fa3a-d2e9-49bc-882f-b40c535a77fa" />
 
 
-👩‍💻 Autora
-Gabriela Ayelén Barrera
-
-📫 Contacto:
-gabrielaayelenbarrera1145@gmail.com
-
 ---
 
-🔗 LinkedIn:
-https://www.linkedin.com/in/gabrielabarrera-
-
-
-
-
+## 👩‍💻 Autora
+**Gabriela Ayelén Barrera**  
+📫 Contacto: gabrielaayelenbarrera1145@gmail.com  
+🔗 LinkedIn: www.linkedin.com/in/gabrielabarrera-
 
 ---
 
