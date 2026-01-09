@@ -19,21 +19,23 @@ Aplicación web para mostrar productos de maquillaje con:
 ## 🚀 Cómo correr el proyecto
 ### 1️⃣ Clonar el repositorio
 
-- git clone https://github.com/GabrielaAyelenBarrera/EntregaFinalJs-GabrielaBarrera.git
-- cd EntregaFinalJs-GabrielaBarrera
+- git clone https://github.com/GabrielaAyelenBarrera/GabrielaBarrera-ProyectoCoderHouse-JavaScript.git
+- cd GabrielaBarrera-ProyectoCoderHouse-JavaScript
 
 ### 2️⃣ Instalar dependencias
-npm install 
+
+`npm install `
 
 ### 3️⃣ Levantar servidor
-npm run dev
+`npm run dev`
 
 El servidor corre en la URL:
+
 `http://localhost:8080/`
 
 En la terminal deberías ver algo como:
 
-Server escuchando en puerto 8080
+`Server escuchando en puerto 8080`
 
 ---
 
@@ -133,6 +135,8 @@ Verificar que:
 
 <img width="1231" src="https://github.com/user-attachments/assets/936bc9b9-3d11-43f5-b2a2-87d800cc3b12" />
 
+---
+
 ⚡ Real Time Products
 
 <img width="1132" src="https://github.com/user-attachments/assets/73f84f40-d38a-4943-9f54-f4565c2f81d0" />
@@ -140,6 +144,9 @@ Verificar que:
 <img width="1045" src="https://github.com/user-attachments/assets/f41b038c-b045-4c86-b938-b5d2b11bdc73" /> 
 
 <img width="652" src="https://github.com/user-attachments/assets/f108b5ad-3e0a-4a24-b917-df468a543337" />
+
+
+---
 
 📦 API Products
 
