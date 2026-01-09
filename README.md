@@ -114,6 +114,14 @@ Ingresar el ID del producto
 Presionar Eliminar producto
 Verificar que desaparezca del listado y de la API
 
+📸 Screenshots
+🏠 Home
+<img width="1264" src="https://github.com/user-attachments/assets/34f194c5-3963-4c03-919c-306d9404d9af" />
+⚡ Real Time Products
+<img width="1231" src="https://github.com/user-attachments/assets/936bc9b9-3d11-43f5-b2a2-87d800cc3b12" /> <img width="1132" src="https://github.com/user-attachments/assets/73f84f40-d38a-4943-9f54-f4565c2f81d0" />
+📦 API Products
+<img width="1045" src="https://github.com/user-attachments/assets/f41b038c-b045-4c86-b938-b5d2b11bdc73" /> <img width="652" src="https://github.com/user-attachments/assets/f108b5ad-3e0a-4a24-b917-df468a543337" /> <img width="553" src="https://github.com/user-attachments/assets/71b2fa3a-d2e9-49bc-882f-b40c535a77fa" />
+
 <img width="1264" height="537" alt="image" src="https://github.com/user-attachments/assets/34f194c5-3963-4c03-919c-306d9404d9af" />
 <img width="1231" height="669" alt="image" src="https://github.com/user-attachments/assets/936bc9b9-3d11-43f5-b2a2-87d800cc3b12" />
 <img width="1132" height="534" alt="image" src="https://github.com/user-attachments/assets/73f84f40-d38a-4943-9f54-f4565c2f81d0" />
