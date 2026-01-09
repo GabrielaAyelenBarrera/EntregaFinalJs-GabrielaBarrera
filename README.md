@@ -64,6 +64,8 @@ GET /
 
 ## ⚡ Productos en tiempo real
 GET /realTimeProducts
+
+
 Vista interactiva con:
 - Listado de productos
 - Formulario para agregar productos
@@ -75,8 +77,7 @@ Vista interactiva con:
 ## 📦 API de productos
 GET /api/products
 
-Devuelve todos los productos en formato JSON
-Ideal para pruebas con Postman o consumo desde frontend
+Devuelve todos los productos en formato JSON Ideal para pruebas con Postman o consumo desde frontend
 
 Ejemplo de respuesta:
 
@@ -105,6 +106,8 @@ json
 
 ## 🧪 Cómo probar la aplicación
 ➕ Agregar un producto
+
+
 Ingresar a:
 /realTimeProducts
 
