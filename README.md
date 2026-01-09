@@ -22,7 +22,8 @@ Aplicación web para mostrar productos de maquillaje con:
 ```bash
 git clone <repo_url>
 cd <carpeta_del_proyecto>
-
+```bash
+---
 ### 2) Instalar dependencias
 npm install
 
