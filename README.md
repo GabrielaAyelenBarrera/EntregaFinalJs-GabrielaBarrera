@@ -17,24 +17,21 @@ Aplicación web para mostrar productos de maquillaje con:
 ---
 
 ## 🚀 Cómo correr el proyecto
-
 ### 1️⃣ Clonar el repositorio
-```bash
+
 git clone https://github.com/GabrielaAyelenBarrera/EntregaFinalJs-GabrielaBarrera.git
+
 cd EntregaFinalJs-GabrielaBarrera
 
 ### 2️⃣ Instalar dependencias
-```bash
-npm install
-
+npm install 
 ### 3️⃣ Levantar servidor
-```bash
 npm run dev
-
 El servidor corre en:
 http://localhost:8080/
 
 En la terminal deberías ver algo como:
+
 Server escuchando en puerto 8080
 
 🌐 Rutas disponibles
@@ -51,7 +48,9 @@ http://localhost:8080/api/products
 🌐 Consultar productos desde la API
 
 🏠 Home
+
 GET /
+
 Muestra el listado de productos en formato de tarjetas
 
 Página principal del sitio
@@ -60,21 +59,27 @@ Página principal del sitio
 GET /realTimeProducts
 
 Vista interactiva con:
+
 Listado de productos
+
 Formulario para agregar productos
+
 Formulario para eliminar productos por ID
 Los cambios se reflejan en tiempo real sin recargar la página
 
 📦 API de productos
 GET /api/products
+
 Devuelve todos los productos en formato JSON
 Ideal para pruebas con Postman o consumo desde frontend
 
 Ejemplo de respuesta:
 
 json
+
 [
-  {
+{
+
     "id": 1,
     "name": "Paleta de sombras Desnuda",
     "marca": "Urban Decay",
@@ -115,19 +120,25 @@ Presionar Eliminar producto
 Verificar que desaparezca del listado y de la API
 
 📸 Screenshots
-🏠 Home
-<img width="1264" src="https://github.com/user-attachments/assets/34f194c5-3963-4c03-919c-306d9404d9af" />
-⚡ Real Time Products
-<img width="1231" src="https://github.com/user-attachments/assets/936bc9b9-3d11-43f5-b2a2-87d800cc3b12" /> <img width="1132" src="https://github.com/user-attachments/assets/73f84f40-d38a-4943-9f54-f4565c2f81d0" />
-📦 API Products
-<img width="1045" src="https://github.com/user-attachments/assets/f41b038c-b045-4c86-b938-b5d2b11bdc73" /> <img width="652" src="https://github.com/user-attachments/assets/f108b5ad-3e0a-4a24-b917-df468a543337" /> <img width="553" src="https://github.com/user-attachments/assets/71b2fa3a-d2e9-49bc-882f-b40c535a77fa" />
 
-<img width="1264" height="537" alt="image" src="https://github.com/user-attachments/assets/34f194c5-3963-4c03-919c-306d9404d9af" />
-<img width="1231" height="669" alt="image" src="https://github.com/user-attachments/assets/936bc9b9-3d11-43f5-b2a2-87d800cc3b12" />
-<img width="1132" height="534" alt="image" src="https://github.com/user-attachments/assets/73f84f40-d38a-4943-9f54-f4565c2f81d0" />
-<img width="1045" height="627" alt="image" src="https://github.com/user-attachments/assets/f41b038c-b045-4c86-b938-b5d2b11bdc73" />
-<img width="652" height="307" alt="image" src="https://github.com/user-attachments/assets/f108b5ad-3e0a-4a24-b917-df468a543337" />
-<img width="553" height="629" alt="image" src="https://github.com/user-attachments/assets/71b2fa3a-d2e9-49bc-882f-b40c535a77fa" />
+🏠 Home
+
+<img width="1264" src="https://github.com/user-attachments/assets/34f194c5-3963-4c03-919c-306d9404d9af" />
+
+⚡ Real Time Products
+
+<img width="1231" src="https://github.com/user-attachments/assets/936bc9b9-3d11-43f5-b2a2-87d800cc3b12" />
+
+<img width="1132" src="https://github.com/user-attachments/assets/73f84f40-d38a-4943-9f54-f4565c2f81d0" />
+
+📦 API Products
+
+<img width="1045" src="https://github.com/user-attachments/assets/f41b038c-b045-4c86-b938-b5d2b11bdc73" /> 
+
+<img width="652" src="https://github.com/user-attachments/assets/f108b5ad-3e0a-4a24-b917-df468a543337" />
+
+ <img width="553" src="https://github.com/user-attachments/assets/71b2fa3a-d2e9-49bc-882f-b40c535a77fa" />
+
 
 👩‍💻 Autora
 Gabriela Ayelén Barrera
@@ -135,5 +146,14 @@ Gabriela Ayelén Barrera
 📫 Contacto:
 gabrielaayelenbarrera1145@gmail.com
 
+---
+
 🔗 LinkedIn:
 https://www.linkedin.com/in/gabrielabarrera-
+
+
+
+
+
+---
+
